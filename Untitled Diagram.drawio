@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T12:05:44.883Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" version="20.0.4" etag="CC6q-xgKTP6oEykLwU_Z" type="github"><diagram id="gOPD-dyYD7wM6eBOHagp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-06T12:21:36.865Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="sW8Gv8PGB0ovebhBPdBD" version="20.0.4" type="github">
+  <diagram id="gOPD-dyYD7wM6eBOHagp" name="Page-1">
+    <mxGraphModel dx="862" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="58vKS-DSGTSKR6i5wqaA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58vKS-DSGTSKR6i5wqaA-1" target="58vKS-DSGTSKR6i5wqaA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58vKS-DSGTSKR6i5wqaA-1" value="Why does graphql exist ?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58vKS-DSGTSKR6i5wqaA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58vKS-DSGTSKR6i5wqaA-2" target="58vKS-DSGTSKR6i5wqaA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58vKS-DSGTSKR6i5wqaA-2" value="what is graphql ?&amp;nbsp;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58vKS-DSGTSKR6i5wqaA-3" value="Why do we use graphql ?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58vKS-DSGTSKR6i5wqaA-10" value="&lt;b&gt;RESTFUL CONVENTIONS&lt;/b&gt;&lt;br&gt;/api/v1/name POST //create a record&lt;br&gt;/name GET // fetch all record&lt;br&gt;/name/:id GET // fetch record with given id&amp;nbsp;&lt;br&gt;/name/:id PUT update record with given id&amp;nbsp;&lt;br&gt;/name/:id DELETE delete record with given id&amp;nbsp;&lt;br&gt;&lt;b&gt;&lt;br&gt;SHORTCOMINGS&lt;br&gt;&lt;/b&gt;/users/23/post GET // fetch post created by user 23&lt;br&gt;/user/23/post/13 DELETE delete post 13 created by user 23&lt;br&gt;&lt;br&gt;NOTE: nested routes&lt;br&gt;&lt;br&gt;url conventions for nested resources &lt;br&gt;api calls&amp;nbsp;&lt;br&gt;too much data than what&#39;s currently required&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="380" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
